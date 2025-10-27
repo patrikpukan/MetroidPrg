@@ -72,6 +72,11 @@ The project aims to follow a feature-based modularization approach for better or
     - Android Studio should automatically sync Gradle files.
     - Click "Build" > "Make Project" or run the app on an emulator/device.
 
+## Copilot instructions
+
+For AI code suggestions and conventions used in this repo, see:
+- .github/copilot-instructions.md
+
 ## Future Enhancements (To-Do)
 
 - Integration with a live Prague Public Transport API (e.g., PID Lítačka, Golemio, or other available sources).
