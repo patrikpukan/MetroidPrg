@@ -15,7 +15,7 @@
 - Use the latest Android Studio/SDK tools; the project targets API level 36.
 
 ## Coding Style & Naming Conventions
-- Language: Kotlin with planned Jetpack Compose UI; prefer idiomatic Kotlin (expression-based code, nullable-safety, scoped functions when clear).
+- Language: Kotlin with planned Jetpack Compose UI with Material 3 Expressive; prefer idiomatic Kotlin (expression-based code, nullable-safety, scoped functions when clear).
 - Formatting: 4-space indent, trailing commas where Kotlin allows for cleaner diffs, and organized imports. Align with Android/Kotlin style defaults.
 - Names: `PascalCase` for classes/objects, `camelCase` for functions/vars, `UPPER_SNAKE_CASE` for const vals. Resource files stick to `snake_case`.
 - Packages stay under `tech.pukan.metroidprg`; avoid creating parallel namespaces. Add dependencies through `gradle/libs.versions.toml` so versions remain centralized.
