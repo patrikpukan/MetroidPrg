@@ -23,6 +23,7 @@ fun HomeScreen() {
         ) {
             Text(
                 text = "Prague Transport",
+                color = MaterialTheme.colorScheme.primary,
                 style = MaterialTheme.typography.headlineMedium
             )
         }
