@@ -29,9 +29,9 @@ import tech.pukan.metroidprg.core.designsystem.theme.MetroidPrgTheme
 fun HomeScreen() {
     val items =
         listOf(
-            BottomNavItem("Item One", Icons.Filled.Dashboard),
-            BottomNavItem("Item Two", Icons.Filled.Explore),
-            BottomNavItem("Item Three", Icons.Filled.Timeline),
+            BottomNavItem("Home", Icons.Filled.Dashboard),
+            BottomNavItem("Search", Icons.Filled.Explore),
+            BottomNavItem("Settings", Icons.Filled.Timeline),
         )
     var selectedIndex by remember { mutableIntStateOf(0) }
 
