@@ -6,6 +6,9 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Dashboard
 import androidx.compose.material.icons.filled.Explore
+import androidx.compose.material.icons.filled.Home
+import androidx.compose.material.icons.filled.Search
+import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material.icons.filled.Timeline
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
@@ -29,9 +32,9 @@ import tech.pukan.metroidprg.core.designsystem.theme.MetroidPrgTheme
 fun HomeScreen() {
     val items =
         listOf(
-            BottomNavItem("Home", Icons.Filled.Dashboard),
-            BottomNavItem("Search", Icons.Filled.Explore),
-            BottomNavItem("Settings", Icons.Filled.Timeline),
+            BottomNavItem("Home", Icons.Filled.Home),
+            BottomNavItem("Search", Icons.Filled.Search),
+            BottomNavItem("Settings", Icons.Filled.Settings),
         )
     var selectedIndex by remember { mutableIntStateOf(0) }
 
