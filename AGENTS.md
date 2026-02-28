@@ -25,10 +25,6 @@
 - Instrumentation/UI tests go in `app/src/androidTest` using `AndroidJUnit4`/Espresso; annotate slow or device-only cases clearly.
 - When adding features, include at least one unit test and expand instrumentation coverage for user-facing flows.
 
-## Commit & Pull Request Guidelines
-- Write concise, imperative commit subjects; optional prefixes seen here (`feat:`, `chore:`) are welcome when helpful.
-- PRs should describe the change, link issues if any, list commands/tests run, and attach screenshots or screen recordings for UI-impacting work.
-- Keep changes scoped; prefer follow-up PRs for refactors. Update docs or sample code when altering build or entry points.
 
 ## Configuration & Security Notes
 - Do not commit secrets or API keys; keep them in `local.properties` or Gradle properties and reference via buildConfig or DI.
